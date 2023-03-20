@@ -58,6 +58,7 @@
     border-radius: 40px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    font-size: 1px;
 }
 .header .btn img{
     text-align: center;
@@ -66,6 +67,7 @@
     transition: all 0.3s;
     border: none;
     border-radius: 40px;
+    
 }
 .header .btn button:hover{
     transform: scale(1.1);
