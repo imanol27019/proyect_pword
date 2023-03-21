@@ -76,6 +76,7 @@ body{
     background-color: #fffafa;
 }
     #shop .fotos{
+        display: flex;
   background-color: #ffebfc;
   padding: 1rem;
   display: flex;
@@ -87,7 +88,13 @@ body{
   border-radius: 2rem;
   transition: 250ms ease-in-out;
     }
-<<<<<<< HEAD
+    .img{
+        display: flex;
+        justify-content:center;
+        width: 200px;
+        height: 250px;
+        
+    }
   
 .presentacion{
     background-color: #000;
@@ -99,7 +106,3 @@ body{
     text-align: center;
 }
 
-=======
->>>>>>> 8cd0a1b070987de7f8c83d33e50194a75d368638
-
-    
