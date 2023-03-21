@@ -73,10 +73,10 @@
     transform: scale(1.1);
 }
 body{
-    background-color: #836bb0;
+    background-color: #fffafa;
 }
     #shop .fotos{
-  background-color: #8b5983;
+  background-color: #ffebfc;
   padding: 1rem;
   display: flex;
   margin-top: 1rem;
@@ -87,3 +87,16 @@ body{
   border-radius: 2rem;
   transition: 250ms ease-in-out;
     }
+  
+.presentacion{
+    background-color: #000;
+    color: #fff;
+    font-family: "Roboto Condensed",sans-serif;
+    text-align: center!important;
+    padding: 40px!important;
+    text-align: center;
+    text-align: center;
+}
+
+
+    
