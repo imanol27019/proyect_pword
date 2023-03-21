@@ -73,17 +73,17 @@
     transform: scale(1.1);
 }
 body{
-    background-color: #b08e6b;
+    background-color: #836bb0;
 }
     #shop .fotos{
-  background-color: #595e8b;
+  background-color: #8b5983;
   padding: 1rem;
   display: flex;
   margin-top: 1rem;
   margin-bottom: 1rem;
   flex-flow: column nowrap;
   align-items: center;
-  max-width: 400px;
-  border-radius: 1rem;
+  max-width: 370px;
+  border-radius: 2rem;
   transition: 250ms ease-in-out;
     }
