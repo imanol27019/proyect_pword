@@ -88,11 +88,30 @@ body{
   border-radius: 2rem;
   transition: 250ms ease-in-out;
     }
+<<<<<<< HEAD
     .img{
         display: flex;
         justify-content:center;
         width: 200px;
         height: 250px;
+=======
+<<<<<<< HEAD
+  
+.presentacion{
+    background-color: #000;
+    color: #fff;
+    font-family: "Roboto Condensed",sans-serif;
+    text-align: center!important;
+    padding: 40px!important;
+    text-align: center;
+    text-align: center;
+}
+
+=======
+>>>>>>> 8cd0a1b070987de7f8c83d33e50194a75d368638
+
+   .pie_pagina {
+>>>>>>> parent of ddf6dba ("enlacé facebook e instagram")
         
     }
   
