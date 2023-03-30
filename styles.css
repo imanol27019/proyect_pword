@@ -75,44 +75,7 @@
 body{
     background-color: #fffafa;
 }
-    #shop .fotos{
-        display: flex;
-  background-color: #ffebfc;
-  padding: 1rem;
-  display: flex;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  flex-flow: column nowrap;
-  align-items: center;
-  max-width: 370px;
-  border-radius: 2rem;
-  transition: 250ms ease-in-out;
-    }
 
-    .img{
-        display: flex;
-        justify-content:center;
-        width: 200px;
-        height: 250px;
-
-    }
-  
-.presentacion{
-    background-color: #000;
-    color: #fff;
-    font-family: "Roboto Condensed",sans-serif;
-    text-align: center!important;
-    padding: 40px!important;
-    text-align: center;
-    text-align: center;
-}
-
-.presentacion{
-    background-color: #000;
-    color: #fff;
-    margin-bottom:25px;
-    font-size: 20px;
-   }
 
 /*::::::::Pie de Pagina*/
   .pie_pagina {
