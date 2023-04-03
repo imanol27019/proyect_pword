@@ -97,24 +97,6 @@ body{
 
     }
   
-.presentacion{
-    background-color: #000;
-    color: #fff;
-    font-family: "Roboto Condensed",sans-serif;
-    text-align: center!important;
-    padding: 40px!important;
-    text-align: center;
-    text-align: center;
-}
-
-.presentacion{
-    background-color: #000;
-    color: #fff;
-    margin-bottom:25px;
-    font-size: 20px;
-   }
-
-
    
 /*::::::::::::::Carrusel*/
 
@@ -123,7 +105,6 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-
 
 .titulo {
   font-size: 40px;
@@ -185,8 +166,8 @@ body{
 }
 
 .carousel .carousel-item img {
-  width: 100%;
-  height: 100%;
+  width: 400%;
+  height: 200%;
   object-fit: cover;
   position: absolute;
   top: 0;
