@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://kit.fontawesome.com/f7e11ecd87.js" crossorigin="anonymous"></script>
-    <script src="app.js" defer></script>
+    
     <title>Cingaro Zapatos</title>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="img/logo.png" alt="logo de la marca">
-        </div>
-        <nav>
-            <ul class="nav_links">
-                <li> <a href="index.html" n>Inicio</a></li>
-                <li> <a href="tienda.html" n>Tienda</a></li>
-                <li> <a href="contacto.html" n>Contacto</a></li>
-                <li> <a href="como_comprar.html" n>Politica de devolucion</a></li>
-                <li> <a href="ubicacion.html" n>Ubicacion</a></li>
+    <header id="header" class="header">
+
+        <a href="index.html"><img class="logo" src="img zapatería/logo.jpg" alt="Logo"></a>
+
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="como_comprar.html">¿Como comprar?</a></li>
+                <li><a href="ubicacion.html">Quienes somos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-
-        <a href="#" class="btn"><button><img src="img/carrito_de_compras.jpg" alt="carrito_de_compras"></button></a>
     </header>
+    <div id="contenedor-aux1" class="contenedor-aux1">
+    </div>
     <main>
-
     </main>
     <footer class="pie_pagina">
         <div class="grupo-1">
@@ -56,5 +58,6 @@
 
         </div>
     </footer>
+    <script src="app.js" defer></script>
 </body>
 </html>

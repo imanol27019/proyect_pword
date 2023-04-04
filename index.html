@@ -5,37 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <!--iconos copados-->
     <script src="https://kit.fontawesome.com/f7e11ecd87.js" crossorigin="anonymous"></script>
-    <script src="app.js" defer></script>
-    <title>Cingaro Zapatos</title>
+
+    <title>Document</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="img/logo.png" alt="logo de la marca">
-        </div>
-        <nav>
-            <ul class="nav_links">
-                <li> <a href="index.html" n>Inicio</a></li>
-                <li> <a href="tienda.html" n>Tienda</a></li>
-                <li> <a href="contacto.html" n>Contacto</a></li>
-                <li> <a href="como_comprar.html" n>Politica de devolucion</a></li>
-                <li> <a href="ubicacion.html" n>Ubicacion</a></li>
+    <header id="header" class="header">
+
+        <a href="index.html"><img class="logo" src="img zapatería/logo.jpg" alt="Logo"></a>
+
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="como_comprar.html">¿Como comprar?</a></li>
+                <li><a href="ubicacion.html">Quienes somos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-
-        <a href="#" class="btn"><button><img src="img/carrito_de_compras.jpg" alt="carrito_de_compras"></button></a>
     </header>
-
+    <div id="contenedor-aux1" class="contenedor-aux1">
+    </div>
     <main>
         <div class="presentacion ">
             <h3 class="text-center weight-normal hidden-phone">Categorias Principales
-         </h3> 
-         </div>
-        <section  id="shop">
+            </h3>
+        </div>
+        <section id="shop">
             <div class="fotos">
                 <div class="img">
                     <img src="./img galeria/img1.jpg" width="100%">
@@ -102,6 +104,7 @@
 
         </div>
     </footer>
+    <script src="app.js" defer></script>
 </body>
 
 </html>
