@@ -27,7 +27,7 @@
       }
   
   .presentacion{
-      background-color: #000;
+      background-color: #0a1a2a;
       color: #fff;
       font-family: "Roboto Condensed",sans-serif;
       text-align: center!important;
@@ -36,9 +36,4 @@
       text-align: center;
   }
   
-  .presentacion{
-      background-color: #000;
-      color: #fff;
-      margin-bottom:25px;
-      font-size: 20px;
-     }
+ 
