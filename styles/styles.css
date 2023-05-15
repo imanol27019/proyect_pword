@@ -44,4 +44,31 @@ body {
   text-align: center;
   text-align: center;
 }
-  
+.carousel {
+  width: 40rem;
+  height: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.carousel-item img{
+  height: 30rem;
+}
+@media screen and (max-width:800px)
+{
+  .carousel {
+    width: 100%;
+    height: 80%;
+  }
+}
+
+.card img{
+  height: 20rem;
+  margin-top: 0.7rem ;
+}
+
+.card{
+  margin: auto;
+  margin-top: 2rem ;
+  margin-bottom: 4rem;
+}
